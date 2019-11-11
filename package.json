@@ -1,0 +1,44 @@
+{
+  "name": "@tirumalavasu/vue-flex-table",
+  "version": "1.0.7",
+  "private": false,
+  "description": "A Vue.js table component with flex css",
+  "main": "dist/vue-flex-table.js",
+  "scripts": {
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+  },
+  "author": "Tirumala Vasu Sykam",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "material-icons": "^0.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tirumalavasu/vue-flex-table.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-stage-2": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "rimraf": "^3.0.0",
+    "style-loader": "^1.0.0",
+    "svg-loader": "0.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^2.2.0",
+    "vue": "^2.6.10",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-merge": "^4.2.2"
+  }
+}
